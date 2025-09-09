@@ -84,7 +84,7 @@
     "pretest": "yarn run compile && yarn run lint",
     "lint": "eslint src --ext ts",
     "test": "node ./out/test/runTest.js",
-    "build":"tsc-p./"
+    "build":"tsc -p ./"
   },
   "devDependencies": {
     "@types/glob": "^8.1.0",
